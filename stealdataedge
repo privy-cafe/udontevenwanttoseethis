@@ -1,0 +1,8 @@
+
+<script>
+    __proto__.__proto__ = new Proxy(__proto__, {
+        has: function (target, name) {
+            alert(name);
+        }
+    });
+</script>
